@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+/* body{
+  font-family: "Barlow Condensed", sans-serif;
+font-family: "Oswald", sans-serif;
+
+} */
+
+:root
+{
+    --primary_text_color:#111827;
+    --secondary_text_color:#333D4C;
+    --background_color:#fff;
+    --pink_color: #D85151;
+    --Inter: "Inter", sans-serif;
+
+}
+
+/* ==============common css================= */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+img{
+    vertical-align: middle;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6,p,span,div,li,ol,ul,img,a{
+    padding: 0;
+    margin: 0;;
+}
+.container{
+    max-width: 1320px;
+    margin: auto;
+}
+
+
+
+/* sold land part */
+.sold_land_part{
+    padding: 40px 0;
+    background-color: #1A1A2E;
+}
+
+.Sold_land_title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        /* max-width: 500px; */
+    color: var(--background_color);
+    /* position: relative; */
+    left: 800px;
+
+/* Display/Desktop/D4 */
+font-family: var(--Inter);
+font-size: 56px;
+font-weight: 700;
+line-height: 68px; /* 121.429% */
+margin-bottom: 2rem;
+
+}
+
+.sold_card_wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* align-items: baseline; */
+    justify-content: center;
+    gap: 30px;
+
+}
+
+.Sold_card{
+    max-width: 900px;
+    /* background-color: ; */
+    background-color: #111827;
+    padding: 10px 10px ;
+    border:1px solid #333D4C;
+    border-radius: 10px;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: space-between; */
+    gap: 20px;
+    
+}
+
+.card_riht_title{
+    color: var(--background_color);
+    font-size: 20px;
+    font-family: var(--Inter);
+    margin-bottom: 10px;
+
+}
+
+.card_right_rate{
+    color: var(--background_color);
+    font-family: var(--Inter);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+
+}
+
+
+
+.cart_right_subtitle{
+    max-width: 500px;
+    color: var(--background_color);
+    font-family: var(--Inter);
+    font-size: 11px;
+    line-height: 18px;
+}
+
+.Property_price{
+    color: var(--background_color);
+    margin-bottom: -10px;
+}
+
+.location{
+    font-size: 14px;
+    color: var(--background_color);
+
+}
+
+.size{
+    color: var(--background_color);
+}
+
+.card_item
+{
+    font-size: 5px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    gap:20px;
+
+}
+
+/* sold land part */
+
+
